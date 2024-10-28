@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {bootstrapApplication} from '@angular/platform-browser';
 import { Hello } from './app/demo.component'
+import { SillyStupidComponent } from './app/silly-stupid.component';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +13,9 @@ import { Hello } from './app/demo.component'
     <hr />
     <h1>Hello {{ name }}!</h1>
     <hello />
+    <silly-stupid />
   `,
-  imports: [FormsModule, Hello],
+  imports: [FormsModule, Hello, SillyStupidComponent],
 })
 export class DemoComponent {
   name = '';
