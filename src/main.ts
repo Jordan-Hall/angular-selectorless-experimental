@@ -6,7 +6,6 @@ import { SillyStupidComponent } from './app/silly-stupid.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
   template: `
     <label for="name">Name:</label>
     <input type="text" id="name" [(ngModel)]="name" placeholder="Enter a name here" />
@@ -15,7 +14,7 @@ import { SillyStupidComponent } from './app/silly-stupid.component';
     <hello />
     <silly-stupid />
   `,
-  imports: [FormsModule, Hello, SillyStupidComponent],
+  imports: [FormsModule],
 })
 export class DemoComponent {
   name = '';

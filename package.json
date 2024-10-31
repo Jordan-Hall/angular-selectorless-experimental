@@ -9,13 +9,13 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "github:Jordan-Hall/animations-builds#feat/selectorless-authoring",
-    "@angular/common": "github:Jordan-Hall/common-builds#feat/selectorless-authoring",
-    "@angular/compiler": "github:Jordan-Hall/compiler-builds#feat/selectorless-authoring",
-    "@angular/core": "github:Jordan-Hall/core-builds#feat/selectorless-authoring",
-    "@angular/forms": "github:Jordan-Hall/forms-builds#feat/selectorless-authoring",
-    "@angular/platform-browser": "github:Jordan-Hall/platform-browser-builds#feat/selectorless-authoring",
-    "@angular/router": "github:Jordan-Hall/router-builds#feat/selectorless-authoring",
+    "@angular/animations": "github:treatyjs/animations-builds#standalone-with-infer-imports",
+    "@angular/common": "github:treatyjs/common-builds#standalone-with-infer-imports",
+    "@angular/compiler": "github:treatyjs/compiler-builds#standalone-with-infer-imports",
+    "@angular/core": "github:treatyjs/core-builds#standalone-with-infer-imports",
+    "@angular/forms": "github:treatyjs/forms-builds#standalone-with-infer-imports",
+    "@angular/platform-browser": "github:treatyjs/platform-browser-builds#standalone-with-infer-imports",
+    "@angular/router": "github:treatyjs/router-builds#standalone-with-infer-imports",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.0"
@@ -23,17 +23,17 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "github:angular/angular-devkit-build-angular-builds",
     "@angular/cli": "github:angular/cli-builds",
-    "@angular/compiler-cli": "github:Jordan-Hall/compiler-cli-builds#feat/selectorless-authoring",
+    "@angular/compiler-cli": "github:treatyjs/compiler-cli-builds#standalone-with-infer-imports",
     "typescript": "~5.5.0"
   },
   "overrides": {
-    "@angular/animations": "github:Jordan-Hall/animations-builds#feat/selectorless-authoring",
-    "@angular/common": "github:Jordan-Hall/common-builds#feat/selectorless-authoring",
-    "@angular/compiler": "github:Jordan-Hall/compiler-builds#feat/selectorless-authoring",
-    "@angular/core": "github:Jordan-Hall/core-builds#feat/selectorless-authoring",
-    "@angular/forms": "github:Jordan-Hall/forms-builds#feat/selectorless-authoring",
-    "@angular/platform-browser": "github:Jordan-Hall/platform-browser-builds#feat/selectorless-authoring",
-    "@angular/router": "github:Jordan-Hall/router-builds#feat/selectorless-authoring",
-    "@angular/compiler-cli": "github:Jordan-Hall/compiler-cli-builds#feat/selectorless-authoring"
+    "@angular/animations": "github:treatyjs/animations-builds#standalone-with-infer-imports",
+    "@angular/common": "github:treatyjs/common-builds#standalone-with-infer-imports",
+    "@angular/compiler": "github:treatyjs/compiler-builds#standalone-with-infer-imports",
+    "@angular/core": "github:treatyjs/core-builds#standalone-with-infer-imports",
+    "@angular/forms": "github:treatyjs/forms-builds#standalone-with-infer-imports",
+    "@angular/platform-browser": "github:treatyjs/platform-browser-builds#standalone-with-infer-imports",
+    "@angular/router": "github:treatyjs/router-builds#standalone-with-infer-imports",
+    "@angular/compiler-cli": "github:treatyjs/compiler-cli-builds#standalone-with-infer-imports"
   }
 }
